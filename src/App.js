@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { v4 as uuid } from "uuid";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {useDispatch, useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 import AddNewTask from "./AddNewTask"
 
 const onDragEnd = (result, columns, setColumns) => {
